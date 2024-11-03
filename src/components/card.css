@@ -1,0 +1,35 @@
+.birthday-card{
+    background-color: rgba(77, 198, 183, 1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:30px;
+    color:beige;
+    width: 600px;
+    height: 550px;
+    border-radius: 20px;  
+    display: flex;
+    flex-direction: column; /*til að raða efninu lóðrétt*/
+    align-items: center; /*til að miðja bæði lárétt og lóðrétt.*/
+    justify-content: center; /*til að miðja bæði lárétt og lóðrétt.*/
+    padding: 20px; /*til að gefa innra efninu smá pláss.*/
+    box-sizing: border-box;/*til að gefa innra efninu smá pláss.*/
+    
+
+}
+
+.cake-image{
+    border-radius: 20px;
+    width: 100%;
+    height: 350px;
+    object-fit: cover; /*il að tryggja að myndin fylli út í svæðið án þess að aflagast.*/
+    margin-bottom: 20px;/*til að gefa smá pláss milli myndar og texta.*/
+ 
+    
+}
+
+
+ 
+.greeting{
+    font-size: 1.2em;
+    text-align: center;
+   
+}
